@@ -56,7 +56,7 @@ class Signup extends Component {
                         if (res.status === 401) {
                             this.setState({ error: String(err.statusText) });
                         } else if (res.status === 200) {
-                            this.props.history.push('/login');
+                            this.props.history.push('/profile');
                         } else {
                             this.setState({
                                 error: `Server Error: Unable to register. Please try again.`
