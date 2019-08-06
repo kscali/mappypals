@@ -18,7 +18,6 @@ class ProfileContent extends React.Component {
 
 		this.state = {
 			aboutMeVal: '',
-			interestsVal: '',
 			aboutMe: localStorage.aboutMe || '',
 			interests: localStorage.interests || '',
 			edit: false
